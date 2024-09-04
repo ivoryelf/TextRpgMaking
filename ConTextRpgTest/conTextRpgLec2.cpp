@@ -5,5 +5,5 @@ using namespace std;
 
 int main()
 {
-
+	cout << "~~text rpg 2nd day~~~" << endl;
 }
