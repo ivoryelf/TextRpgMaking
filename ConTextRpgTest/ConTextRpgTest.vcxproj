@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="conTextRpgLec2.cpp" />
+    <ClCompile Include="ConTextRpgTest.cpp" />
+    <ClCompile Include="other_sample01.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

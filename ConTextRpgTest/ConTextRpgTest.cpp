@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 void textcolor(int colorNum);
-
+/*/
 int main()
 {
     system("title 아 게임시작");
@@ -46,7 +46,7 @@ int main()
 		}
 	}
 }
-
+//*/
 void textcolor(int colorNum) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);
 }
