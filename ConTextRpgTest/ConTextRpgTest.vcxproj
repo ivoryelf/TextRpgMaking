@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cGameScene.cpp" />
+    <ClCompile Include="cGameScene_Data.cpp" />
+    <ClCompile Include="cGMHelp.cpp" />
+    <ClCompile Include="cGMMain.cpp" />
+    <ClCompile Include="conTextRpgLec2.cpp" />
     <ClCompile Include="ConTextRpgTest.cpp" />
+    <ClCompile Include="other_sample01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cGameScene.h" />
+    <ClInclude Include="cGMHelp.h" />
+    <ClInclude Include="cGMMain.h" />
+    <ClInclude Include="GlobalHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
